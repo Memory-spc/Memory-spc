@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.main{
+	/* null */
+	padding:1em 0;
+	background-color: #e3e3e3;
+}
+.main .container{
+	/* null */
+	margin: 0 2em;
+}
+/* header */
+.main .container .header{
+	width: 100%;
+	    padding: .7em 0;
+	    background-color: white;
+	    box-shadow: 0px 1px 5px #848484;
+	        border-top-right-radius: 3px;
+	        border-top-left-radius: 3px;
+	        border-bottom: 2px solid #686868;
+}
+.main .container .header span{
+	display: inline-block;
+	padding-left: 3em;
+	    color: green;
+}
+/* header */
+/* main-text */
+.main .container .main-text{
+	width: 100%;
+	overflow: hidden;
+}
+/* left */
+.main .container .main-text .left{
+	width: 21%;
+	background-color: #124431;
+	display: inline-block;
+	float: left;
+}
+/* top */
+.main .container .main-text .left table{
+	width: 100%;
+}
+.main .container .main-text .left table tr{
+	border-bottom: 1px solid white;
+	display: inline-block;
+	width: 100%;
+	
+}
+.main .container .main-text .left table th{
+	width: 100%;
+	    display: inline-block;
+	    padding: .8em 0;
+	    font-size: 1.2em;
+	    color: white;
+	    font-weight: 200;
+}
+/* top */
+/* center */
+.main .container .main-text .left .center{
+	margin-top: 2em;
+	    text-align: center;
+	    line-height: 2em;
+	    color: white;
+		padding-bottom: 10em;
+}
+.main .container .main-text .left .center h4{
+	font-weight: 300;
+	    font-size: 1.2em;
+	    display: inline-block;
+	    background-color: #124431;
+	    width: 116px;
+}
+.main .container .main-text .left .center div{
+	width: 100%;
+	    border-bottom: 1px solid white;
+	    margin-top: -15px;
+}
+.main .container .main-text .left .center .version{
+	margin-top: 3em;
+	    text-align: left;
+	    padding: 0 .5em 0 3.5em;
+	    /* width: 100%; */
+	    font-size: .8em;
+	    box-sizing: border-box;
+		border: none;
+}
+/* center */
+/* bottom */
+.main .container .main-text .left .bottom{
+	box-sizing: border-box;
+	    padding: 1em;
+	    text-align: center;
+}
+.main .container .main-text .left .bottom .version{
+	margin-bottom: 2em;
+}
+.main .container .main-text .left .bottom .version .top{
+	color: white;
+	    font-size: 1.3em;
+	    font-weight: 200;
+		display: inline-block;
+		    background-color: #124431;
+		    width: 42%;
+}
+.main .container .main-text .left .bottom .version .bott{
+	
+	font-size: 1.5em;
+	    color: white;
+	    box-sizing: border-box;
+	    padding: .8em 0 .5em 0;
+	    width: 90%;
+	        text-align: center;
+	        margin: 0 auto;
+	        margin-top: -13px;
+			border: 1px solid white;
+}
+.main .container .main-text .left .bottom .version .bott img{
+	vertical-align: middle;
+}
+/* bottom */
+
+/* left */
+/* right */
+.main .container .main-text .right{
+	padding: 1em 0 0;
+	background-color: white;
+	width: 79%;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+}
+.main .container .main-text .right .contain{
+	padding: 0 1em 0 3em;
+}
+.main .container .main-text .right h4{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+.main .container .main-text .right p{
+	margin-top: 2em;
+	line-height: 3em;
+	border-bottom: 2px solid black;
+	padding-bottom: 2em;
+}
+.main .container .main-text .right .bottom{
+	width: 100%;
+	overflow: hidden;
+	    padding-top: 1.2em;
+}
+.main .container .main-text .right .bottom .img{
+	width:50%;
+	display: inline-block;
+	float: left;
+}
+.main .container .main-text .right .bottom .img iframe{
+	width: 100%;
+	border: none;
+	height: 419px;
+	padding-bottom: 35px;	
+}
+.main .container .main-text .right .bottom .inputs{
+	float: left;
+	width: 44%;
+	    padding: 2em;
+	    vertical-align: middle;
+}
+.main .container .main-text .right .bottom .inputs h5{
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.main .container .main-text .right .bottom .inputs input{
+	height: 2.5em;
+	margin-top: 1.5em;
+	border-radius: 4px;
+	border: 1px solid black;
+	padding-left: 15px;
+	width: 80%;
+	color: black;
+}
+.main .container .main-text .right .bottom .inputs input:nth-of-type(1){
+	width: 62%;	    
+}
+.main .container .main-text .right .bottom .inputs textarea{
+	width: 83%;
+	margin-top: 1.5em;
+	height: 7em;
+	border-radius: 4px;
+	resize: none;
+	padding-left: 15px;
+	padding-top: 15px;
+	color: black;
+}
+.main .container .main-text .right .bottom .inputs button{
+	width: 25%;
+	margin-top: 1.5em;
+	border-radius: 2px;
+	color: white;
+	border: none;
+	background-color: #124431;
+	padding: 5px 0;
+}
+/* right */
+
+/* main-text */

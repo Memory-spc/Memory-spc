@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.main{
+	/* null */
+	padding:1em 0;
+	background-color: #e3e3e3;
+}
+.main .container{
+	/* null */
+	margin: 0 2em;
+}
+/* header */
+.main .container .header{
+	width: 100%;
+	    padding: .7em 0;
+	    background-color: white;
+	    box-shadow: 0px 1px 5px #848484;
+	        border-top-right-radius: 3px;
+	        border-top-left-radius: 3px;
+	        border-bottom: 2px solid #686868;
+}
+.main .container .header span{
+	display: inline-block;
+	padding-left: 3em;
+	    color: green;
+}
+/* header */
+/* main-text */
+.main .container .main-text{
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+/* left */
+.main .container .main-text .left{
+	width: 21%;
+	background-color: #124431;
+	display: inline-block;
+	float: left;
+}
+/* top */
+.main .container .main-text .left table{
+	width: 100%;
+}
+.main .container .main-text .left table tr{
+	border-bottom: 1px solid white;
+	display: inline-block;
+	width: 100%;
+	
+}
+.main .container .main-text .left table th{
+	width: 100%;
+	    display: inline-block;
+	    padding: .8em 0;
+	    font-size: 1.2em;
+	    color: white;
+	    font-weight: 200;
+}
+/* top */
+/* center */
+.main .container .main-text .left .center{
+	margin-top: 2em;
+	    text-align: center;
+	    line-height: 2em;
+	    color: white;
+		padding-bottom: 10em;
+}
+.main .container .main-text .left .center h4{
+	font-weight: 300;
+	    font-size: 1.2em;
+	    display: inline-block;
+	    background-color: #124431;
+	    width: 116px;
+}
+.main .container .main-text .left .center div{
+	width: 100%;
+	    border-bottom: 1px solid white;
+	    margin-top: -15px;
+}
+.main .container .main-text .left .center .version{
+	margin-top: 3em;
+	    text-align: left;
+	    padding: 0 .5em 0 3.5em;
+	    /* width: 100%; */
+	    font-size: .8em;
+	    box-sizing: border-box;
+		border: none;
+}
+/* center */
+/* bottom */
+.main .container .main-text .left .bottom{
+	box-sizing: border-box;
+	    padding: 1em;
+	    text-align: center;
+}
+.main .container .main-text .left .bottom .version{
+	margin-bottom: 2em;
+}
+.main .container .main-text .left .bottom .version .top{
+	color: white;
+	    font-size: 1.3em;
+	    font-weight: 200;
+		display: inline-block;
+		    background-color: #124431;
+		    width: 42%;
+}
+.main .container .main-text .left .bottom .version .bott{
+	
+	font-size: 1.5em;
+	    color: white;
+	    box-sizing: border-box;
+	    padding: .8em 0 .5em 0;
+	    width: 90%;
+	        text-align: center;
+	        margin: 0 auto;
+	        margin-top: -13px;
+			border: 1px solid white;
+}
+.main .container .main-text .left .bottom .version .bott img{
+	vertical-align: middle;
+}
+/* bottom */
+
+/* left */
+/* right */
+#box3Right{
+	float: left;
+	    background-color: white;
+	    width: 79%;
+	    padding: 0 2em;
+	    box-sizing: border-box;
+}
+#box3Right .box3RightOne{
+	
+}
+#box3Right .box3RightOne .buttonOne{
+	color: #ff000094;
+	    border-style: none;
+	    font-size: 20px;
+	    background: linear-gradient(181deg, #00000085, transparent);
+	    cursor: pointer;
+}
+#box3Right .box3RightOne .buttonTwo{
+	color: #ff000094;
+	    border-style: none;
+	    font-size: 20px;
+	    background: linear-gradient(181deg, #00000085, transparent);
+	    cursor: pointer;
+}
+#box3Right .box3RightFive{
+	position: relative;
+}
+#box3Right .box3RightFive img{
+	margin-top: 2em;
+	    margin-left: 3em;
+			vertical-align: middle;
+}
+#box3Right .box3RightFive .part_one{
+	display: inline-block;
+	    line-height: 3em;
+	    padding-left: 10em;
+			position: absolute;
+			top: 4em;
+}
+#box3Right .box3RightFive .part_two{
+	line-height: 1.8em;
+	    padding-bottom: 2px;
+			padding-top: 1.7em;
+			text-indent: 2em;
+}
+
+
+/*  */
+#box3Right .box3RightSix h3{
+	width: 100%;
+	    background-color: #124431;
+	    color: white;
+	    padding: .3em 0 .3em 1em;
+	    box-sizing: border-box;
+	    font-weight: 400;
+			overflow: hidden;
+			margin-top: 1em;
+} 
+#box3Right .box3RightSix >img{
+	float: left;
+	margin-right: 5em;
+}
+#box3Right .box3RightSix >img:first-child{
+	margin-left: 6em;
+}
+#box3Right .box3RightSix >img:last-child{
+	margin-left: 0;
+}
+#box3Right .box3RightSix>div{
+	float: left;
+	    text-align: center;
+	    display: inline-block;
+	    margin-right: 5em;
+	    line-height: 3em;
+}
+#box3Right .box3RightSix>div img{
+	margin-left: 0;
+}
+/* right */
+.main .container .main-under button{
+	height: 2em;
+	width: 2em;
+	border: 1px solid #124431;
+}
+.main .container .main-under button:first-child{
+	height: 2em;
+	width: 4em;
+}
+.main .container .main-under button:last-child{
+	height: 2em;
+	width: 4em;
+}
+.main .container .main-under{
+	display: inline-block;
+	    width: 100%;
+	    background-color: white;
+	    text-align: center;
+}
+.main .container .main-under .botto{
+	padding: 1em;
+	    display: inline-block;
+}
+/* main-text */

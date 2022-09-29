@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	list-style: none;
+}
+/* .header{
+	padding: 0 0 2em;
+} */
+.header .within{
+	padding: 32px 32px 16px;
+	/* padding: 2em 2em 0em; */
+	overflow: hidden;
+	background-image: url(../images/banner03.png);
+}
+.header .within .left{
+	float: left;
+	overflow: hidden;
+	font-size: 16px;
+}
+.header .within .left img{
+	float: left;
+	margin-right: 1.2em;
+}
+.header .within .left p{
+	line-height: 1.5em;
+	display: inline-block;
+	margin-top: 12px;
+	color: green;
+	font-weight: 700;
+	margin-left: 13px;
+	margin-bottom: 0;
+}
+.header .within p b{
+	color: red;
+	font-style: italic;
+	font-weight: 600;
+}
+.header .within .right{
+	float: right;
+	margin-top: 3em;
+	color: green;
+	font-size: 1em;
+	font-weight: 700;
+}
+/* nav */
+.header .bottom {
+	background-color: #124431;
+	padding: 0 2em;
+	overflow: hidden;
+	font-size: 1rem;
+}
+.header .bottom .leftSide{
+  /* width: 100%; */
+  overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+.header .bottom .leftSide .bigBox{
+	float: left;
+}
+.header .bottom .leftSide .bigBox li{
+	list-style: none;
+	float: left;
+}
+.header .bottom .leftSide .bigBox li a:hover{
+	background-color: #185b41;
+}
+.header .bottom .leftSide .bigBox li a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 1em 3em;
+}
+.header .bottom .leftSide .bigBox li span{
+	display: inline-block;
+	border-right: 1px solid white;
+	height: 23px;
+	margin-top: -2px;
+	vertical-align: middle;
+}
+/* 分割线 */
+.header .bottom .rightSide{
+	float: right;
+}
+.header .bottom .rightSide button{
+	margin-top: 1em;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	padding: .2em;
+	cursor: pointer;
+}
+.header .bottom .rightSide input{
+	height: 1.5em;
+	margin-right: 6em;
+	vertical-align: middle;
+	outline-color: purple;
+}
+/* nav */
+
+/* footer */
+.footer{
+	padding: 2em 0 .5em;
+	background-color: #124431;
+	color: white;
+}
+.footer .within{
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.footer .within ul{
+	display: inline-block;
+	overflow: hidden;
+}
+.footer .within ul li{
+	float: left;
+}
+.footer .within ul li a{
+	padding: .5em 4em 1em;
+}
+.footer .within ul li span{
+	display: inline-block;
+	border-right: 1px solid white;
+	height: 23px;
+	margin-top: -2px;
+	vertical-align: middle;
+}
+.footer .within p{
+	margin-top: 2em;
+}
+/* footer */

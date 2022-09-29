@@ -1,0 +1,444 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header-img{
+	width: 100%;
+}
+.header-img img{
+	width: 100%;
+	vertical-align: middle;
+}
+/* frist */
+.fristpart{
+	padding: 0 0 3em;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+.fristpart .container{
+	margin: 0 auto;
+	width: 1300px;
+}
+.fristpart .container::after{
+	clear: both;
+}
+.fristpart .container>div{
+	margin: 0 .5em;
+	/* border: 1px solid white; */
+	box-sizing: border-box;
+	float: left;
+	width: 31.33%;
+	background-color: white;
+}
+/* left */
+.fristpart .container .left li{
+	list-style: none;
+	float: left;
+	font-size: 1.3em;
+	padding: .3em 0;
+	text-align: center;
+	width: 50%;
+	cursor: pointer;
+}
+.fristpart .container .left .select{
+	background-color: #3c863c;
+	margin: 0px;
+}
+.fristpart .container .left table{
+	padding: 2em 1.5em 2.5em 1.5em;
+	width: 100%;
+	text-align: left;
+	line-height: 2.5em;
+}
+.fristpart .container .left table td{
+	border-bottom: 1px dashed #ccc;
+}
+.fristpart .container .left .nav-1>div:last-child{
+	display: none;
+	height: 284.437px;
+}
+.fristpart .container .left .nav-1>div:last-child p{
+	line-height: 3em;
+	padding: 3.5em 2em 2.35em;
+}
+/* left */
+/* center */
+.fristpart .container .middle{
+	height: 284.437px;
+	box-sizing: border-box;
+	border: 9px solid white;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+}
+.fristpart .container .middle .center-container{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/product.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.fristpart .container .middle .center-container .arrow{
+	background-color: green;
+	padding: 7px;
+	width: 19px;
+	height: 13px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	float: right;
+	margin-right: 4em;
+}
+.fristpart .container .middle .center-container .bottom{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	padding: 175px 0 0 0;
+}
+.fristpart .container .middle .center-container .bottom span{
+	padding: 1em 0;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+}
+/* center */
+/* right */
+.fristpart .container .right{
+	height: 284.437px;
+	
+}
+.fristpart .container .right h2{
+	font-size: 1.7em;
+	font-weight: 400;
+	color: green;
+	margin: .3em 0.3em 0;
+}
+.fristpart .container .right p{
+	margin: .7em 0.7em 0;
+}
+.fristpart .container .right .ipho{
+	margin: .3em 0.3em 0;
+	font-size: 36px;
+	color: green;
+}
+.fristpart .container .right .ipho img{
+	width: 43px;
+	vertical-align: middle;
+}
+.fristpart .container .right .qq{
+	width: 75%;
+	margin: .3em 0.3em 0;
+}
+.fristpart .container .right .qq>div{
+	float: left;
+	width: 40%;
+}
+.fristpart .container .right .qq>div h5{
+	line-height: 2.5em;
+}
+.fristpart .container .right .qq>div button{
+	border-radius: 4px;
+	border: 1px solid black;
+	padding: 0px 3px;
+	width: 8em;
+	background-color: white;
+}
+.fristpart .container .right .qq>div button img{
+	vertical-align: middle;
+}
+.fristpart .container .right .qq>div button span{
+	float: right;
+	display: inline-block;
+	padding: 2px 1px 1px 1px;
+}
+.fristpart .container .right .erweima img{
+	margin-left: 3.2em;
+}
+/* right */
+/* first */
+/* second */
+.secondpart{
+	padding: 0 0 3em;
+	/* overflow: hidden; */
+	background-color: #f5f5f5;
+}
+.secondpart .navgation{
+	margin: 0 auto;
+	width: 90%;
+}
+/* header */
+.secondpart .navgation .login-header{
+	height: 3em;
+	width: 100%;
+	/* box-sizing: border-box; */
+	background-color:  #d0d0d0;
+	box-shadow: 2px 2px 2px #c3c3c3;
+}
+.secondpart .navgation .login-header .left{
+	display: inline-block;
+	height: 100%;
+	float: left;
+	height: 100%;
+}
+.secondpart .navgation .login-header .left img{
+	height: 117%;
+	margin-top: -7px;
+	margin-left: 8em;
+}
+/* 分割线 */
+.secondpart .navgation .login-header .right{
+	float: right;
+	padding-top: 1em;
+}
+.secondpart .navgation .login-header .right .circle{
+	float: left;
+}
+.secondpart .navgation .login-header .right .circle label{
+	display: block;
+	width: 1em;
+	height: 1em;
+	border-radius: 60%;
+	/* border: 1px solid black; */
+	float: left;
+	margin-right: 1em;
+	background-color: white;
+}
+.secondpart .navgation .login-header .right .circle .select{
+	background-color: #5f3b02;
+}
+.secondpart .navgation .login-header .right .arrow{
+	float: left;
+}
+.secondpart .navgation .login-header .right .arrow img{
+	margin-right: .5em;
+}
+.secondpart .navgation .login-header .right .arrow img:first-child{
+	transform: rotate(60deg);
+}
+/* header */
+/* 第一张 */
+.secondpart .navgation .login-one{
+	padding: 3em 0 2em 0;
+	line-height: 2.5em;
+	font-size: 1em;
+	background-color: #FFFFFF;
+	display: block;
+}
+/* 第一行 */
+.secondpart .navgation .login-one .firstrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-one .firstrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-one .firstrow>div img{
+	width: 95%;
+}
+/* 第一行 */
+/* 第二行 */
+.secondpart .navgation .login-one .secondrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-one .secondrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-one .secondrow>div img{
+	width: 95%;
+}
+/* 第二行 */
+/* 第一张 */
+/* 第二张 */
+.secondpart .navgation .login-two{
+	padding: 3em 0 2em 0;
+	line-height: 2.5em;
+	font-size: 1em;
+	background-color: #FFFFFF;
+	display: none;
+}
+/* 第一行 */
+.secondpart .navgation .login-two .firstrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-two .firstrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-two .firstrow>div img{
+	width: 95%;
+}
+/* 第一行 */
+/* 第二行 */
+.secondpart .navgation .login-two .secondrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-two .secondrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-two .secondrow>div img{
+	width: 95%;
+}
+/* 第二行 */
+/* 第二张 */
+/* 第三张 */
+.secondpart .navgation .login-there{
+	padding: 3em 0 2em 0;
+	line-height: 2.5em;
+	font-size: 1em;
+	background-color: #FFFFFF;
+	display: none;
+}
+/* 第一行 */
+.secondpart .navgation .login-there .firstrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-there .firstrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-there .firstrow>div img{
+	width: 95%;
+}
+/* 第一行 */
+/* 第二行 */
+.secondpart .navgation .login-there .secondrow{
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.secondpart .navgation .login-there .secondrow>div{
+	text-align: center;
+	float: left;
+	margin: 0 1em;
+	width:17.5%;
+}
+.secondpart .navgation .login-there .secondrow>div img{
+	width: 95%;
+}
+/* 第二行 */
+/* 第三张 */
+/* second */
+
+/* third */
+.thirdpart{
+	padding: 0 0 3em;
+	background-color: #f5f5f5;
+}
+.thirdpart .container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	padding-top: 8px;
+}
+/* header */
+.thirdpart .container .header{
+	height: 3em;
+	width: 100%;
+	background-color:  #d0d0d0;
+	box-shadow: 2px 2px 2px #c3c3c3;
+}
+.thirdpart .container .header img{
+	margin-top: -5px;
+	height: 117%;
+	margin-left: 8em;
+}
+/* header */
+/* body */
+.thirdpart .container .body{
+	background-color: white;
+	width: 100%;
+	padding: 0em 1em 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.thirdpart .container .body >div{
+	width: 27.3%;
+	float: left;
+	padding: 2.5em 2.5em 1.5em;
+}
+/* left */
+.thirdpart .container .body .left{
+	
+}
+.thirdpart .container .body .left h4{
+	font-size: 17px;
+	font-weight: 400;
+	color: green;
+}
+.thirdpart .container .body .left p{
+	margin-top: 1em;
+	line-height: 1.8em;
+	font-size: 16px;
+}
+.thirdpart .container .body .left button{
+	width: 8em;
+	height: 2.2em;
+	background-color: #9bd411;
+	border: 1px solid darkgrey;
+	box-shadow: 0.5px 0.5px #92c31b;
+	margin-top: 2em;
+	color: white;
+	font-size: 16px;
+}
+/* left */
+
+/* center */
+.thirdpart .container .body .center img{
+	width: 100%;
+}
+.thirdpart .container .body .center h5{
+	font-size: 16px;
+	color: #909090;
+	font-weight: 400;
+	padding-top: 9px;
+}
+.thirdpart .container .body .center span{
+	color: #909090;
+	display: inline-block;
+	padding-top: 11px;
+}
+/* center */
+
+/* right */
+.thirdpart .container .body .right img{
+	width: 94%;
+}
+.thirdpart .container .body .right h5{
+	font-size: 16px;
+	color: #909090;
+	font-weight: 400;
+	padding-top: 9px;
+}
+.thirdpart .container .body .right span{
+	color: #909090;
+	display: inline-block;
+	padding-top: 11px;
+}
+/* right */
+/* body */
+/* third */

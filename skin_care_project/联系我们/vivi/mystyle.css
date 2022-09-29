@@ -1,0 +1,92 @@
+
+.big{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.container{
+    width:20%;
+
+    margin-left: 30px;
+
+
+}
+.com{
+    width: 100%;
+    min-width: 360px;
+    background-color: #16540F;
+    height: 100px;
+    border:0.8px solid #ffffff;
+    border-left:none;
+    border-right:none;
+    cursor: pointer;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height:100px;
+
+}
+.com1{
+    width: 100%;
+    min-width: 360px;
+    background-color: #16540F;
+    height: 100px;
+    border:0.8px solid #ffffff;
+    border-left:none;
+    border-right:none;
+
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height:100px;
+
+}
+.com:hover
+{
+    background:#30A600;
+
+}
+
+.top{
+    height: 280px;
+    width: 100%;
+
+    border-bottom:3px solid #000000;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    color: #0f0f0f;
+    font-size: 20px;
+
+    line-height:100px;
+
+}
+.right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.bottom{
+    margin-top: 40px;
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+}
+.map{
+    width: 50%;
+    min-width: 530px;
+    height: 600px;
+    background-color: #2b542c;
+
+}
+.shuru{
+    margin-left: 80px;
+}

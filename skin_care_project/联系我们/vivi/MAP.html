@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src=bootstrap-3.3.7-dist/js/bootstrap.min.js></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=hEV6ZWHb08S9u30zLX0GVNPm8RkLFCLQ"></script>
+
+<style type="text/css">
+	
+	*{
+		margin: 0;
+		padding: 0;
+	}
+</style>
+</head>
+<body>
+
+
+<!-- 地图 -->
+    <div class="big" style="
+        border-left:none;
+        border-right:none;">
+        <div class="right">
+            <div class="bottom">
+                <div class="map" id="map"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 地图 -->
+
+<script type="text/javascript">
+    function changeColor(obj) {
+        $(".com").css({"background-color": '#16540F'});
+        console.log(999)
+        obj.style.background = '#30A600';
+    }
+
+</script>
+<script>
+    var map = new window.BMapGL.Map('map');
+    map.centerAndZoom(new window.BMapGL.Point(116.404, 39.915), 12);
+    map.enableScrollWheelZoom(true);
+</script>
+</body>
+
+</html>
